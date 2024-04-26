@@ -1,0 +1,12 @@
+{
+  "name": "@repo/icons",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "lucide-react": "^0.376.0"
+  }
+}
