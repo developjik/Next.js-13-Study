@@ -1,0 +1,13 @@
+{
+  "name": "@repo/intl",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "next": "^14.0.4",
+    "next-intl": "^3.12.0"
+  }
+}
