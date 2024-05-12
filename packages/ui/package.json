@@ -5,9 +5,15 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "scripts": {
-    "lint": "eslint . --max-warnings 0",
+  "scripts": {    
+    "build": "tailwindcss -i ./css/tailwind.css -o ./css/tailwind-output.css",
+    "lint": "eslint components/",
+    "dev": "tailwindcss -i ./css/tailwind.css -o ./css/tailwind-output.css --watch",
+    "type-check": "tsc --noEmit",
     "generate:component": "turbo gen react-component"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
@@ -16,11 +22,11 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
     "@radix-ui/react-tooltip": "^1.0.7",
+    "@repo/configs": "workspace:*",
     "@repo/eslint-config": "workspace:*",
-    "@repo/tailwind-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@repo/utils": "workspace:*",
     "@repo/icons": "workspace:*",
+    "@repo/utils": "workspace:*",
     "@turbo/gen": "^1.11.3",
     "@types/eslint": "^8.56.1",
     "@types/node": "^20.10.6",
