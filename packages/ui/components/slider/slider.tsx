@@ -8,19 +8,15 @@ import { SliderTrack } from "./slider-track";
 import { SliderThumb } from "./slider-thumb";
 import { SliderRange } from "./slider-range";
 
-
 const Slider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root>
->(({ ...props }, ref) => ( 
-  <SliderRoot
-    ref={ref}
-    {...props}  
-  >
-    <SliderTrack >
-      <SliderRange/>
+>(({ ...props }, ref) => (
+  <SliderRoot ref={ref} {...props}>
+    <SliderTrack>
+      <SliderRange />
     </SliderTrack>
-    <SliderThumb/>
+    <SliderThumb />
   </SliderRoot>
 ));
 

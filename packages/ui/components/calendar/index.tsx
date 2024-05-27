@@ -32,14 +32,14 @@ const Calendar = ({ className, classNames, ...props }: CalendarProps) => (
       nav_button_next:
         "calendar-nav_button_next absolute right-0 text-text_color",
 
-      table: "calendar-table w-full border-collapse",
+      table: "calendar-table w-full border-collapse", 
       head_row: "calendar-head_row px-[5px] flex",
       head_cell:
         "calendar-head_cell p-[4px] inline-flex flex-1 justify-center items-center",
       row: "calendar-row px-[5px] w-full flex",
-      cell: "calendar-cell flex-1 inline-flex min-h-[40px]",
+      cell: "calendar-cell flex-1 inline-flex min-h-[40px]",  
       day: "calendar-day w-full h-full",
-      day_range_end: "calendar-day-range-end",
+      day_range_end: "calendar-day-range-end", 
       day_selected:
         "calendar-day_selected bg-primary text-white rounded-full hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
       day_today: "calendar-day_today bg-accent text-accent-foreground",
