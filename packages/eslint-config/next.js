@@ -30,4 +30,8 @@ module.exports = {
   },
   ignorePatterns: [".*.js", "node_modules/"],
   overrides: [{ files: ["*.js?(x)", "*.ts?(x)"] }],
+  rules: {
+    "@rushstack/typedef-var": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+  },
 };

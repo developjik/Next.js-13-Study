@@ -43,4 +43,8 @@ module.exports = {
     // Force ESLint to detect .tsx files
     { files: ["*.js?(x)", "*.ts?(x)"] },
   ],
+  rules: {
+    "@rushstack/typedef-var": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+  },
 };
