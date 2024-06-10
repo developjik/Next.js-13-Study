@@ -1,13 +1,11 @@
 "use client";
 
-import React from "react";
+import { ButtonStyle } from "../button";
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
-
 import { cn } from "@repo/utils";
+import React from "react";
 
-import { buttonVariants } from "../button";
-
-const AlertDialog = AlertDialogPrimitive.Root;
+// const AlertDialogRoot = AlertDialogPrimitive.Root;
 
 const AlertDialogTrigger = React.forwardRef<
   React.ElementRef<typeof AlertDialogPrimitive.Trigger>,
@@ -115,7 +113,7 @@ const AlertDialogAction = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AlertDialogPrimitive.Action
     ref={ref}
-    className={cn(buttonVariants(), className)}
+    className={cn(ButtonStyle(), className)}
     {...props}
   />
 ));
@@ -128,7 +126,7 @@ const AlertDialogCancel = React.forwardRef<
   <AlertDialogPrimitive.Cancel
     ref={ref}
     className={cn(
-      buttonVariants({ variant: "default" }),
+      ButtonStyle({ variant: "default" }),
       "mt-2 sm:mt-0",
       className,
     )}

@@ -5,6 +5,7 @@ export * from "./calendar";
 export * from "./checkbox";
 export * from "./input";
 export * from "./input-number";
+export * from "./label";
 export * from "./skeleton";
 export * from "./switch";
 export * from "./textarea";
