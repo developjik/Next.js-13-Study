@@ -40,3 +40,5 @@ yarn-error.log*
 # vscode
 .vscode
 
+# tailwind css output file
+packages/ui/css/tailwind-output.css
