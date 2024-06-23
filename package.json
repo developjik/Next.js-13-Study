@@ -21,6 +21,12 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "turbo": "latest"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
   "packageManager": "pnpm@9.1.1",
   "engines": {
     "node": ">=18"
