@@ -8,7 +8,8 @@
     "type-check": "turbo type-check",
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "cc": "esno ./scripts/createComponent.ts"
+    "cc": "esno ./scripts/createComponent.ts",
+    "postinstall": "manypkg check"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
