@@ -1,10 +1,13 @@
 {
-  "name": "@repo/configs",
+  "name": "configs",
   "version": "0.0.0",
   "private": true,
-  "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "tailwindcss": "^3.4.0",
+  "dependencies": {
+    "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.2.2"
   }
 }
