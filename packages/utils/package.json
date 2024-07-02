@@ -1,5 +1,5 @@
 {
-  "name": "@repo/utils",
+  "name": "utils",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
@@ -7,7 +7,10 @@
     ".": "./src/index.ts"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
     "clsx": "^2.1.0",
+    "configs": "workspace:*",
+    "eslint-config": "workspace:*",
     "lodash-es": "^4.17.21",
     "tailwind-merge": "^2.3.0"
   }
