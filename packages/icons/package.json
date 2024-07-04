@@ -7,8 +7,8 @@
     "lint": "eslint . --max-warnings 0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "configs": "workspace:*"
+    "configs": "workspace:*",
+    "eslint-config": "workspace:*"
   },
   "dependencies": {
     "lucide-react": "^0.395.0"

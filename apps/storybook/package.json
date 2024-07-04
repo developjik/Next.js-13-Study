@@ -11,10 +11,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
     "icons": "workspace:*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ui": "workspace:*"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.4.0",
