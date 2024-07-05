@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
-import { cn } from "@repo/utils";
+import React from "react";
+import { cn } from "utils";
 
 export type CheckboxIndicatorProps = React.ComponentPropsWithoutRef<
   typeof CheckboxPrimitive.Indicator

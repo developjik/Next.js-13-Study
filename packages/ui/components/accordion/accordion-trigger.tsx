@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { cn } from "@repo/utils";
+import React from "react";
+import { cn } from "utils";
 
 export type AccordionTriggerProps = React.ComponentPropsWithoutRef<
   typeof AccordionPrimitive.Trigger
@@ -20,7 +20,7 @@ const AccordionTrigger = React.forwardRef<
     ref={ref}
     className={cn(
       "p-4 transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
-      className
+      className,
     )}
     {...props}
   >

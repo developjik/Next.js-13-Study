@@ -2,10 +2,14 @@
 "use client";
 
 // import { ko } from "date-fns/locale";
-import { ChevronLeft, ChevronRight } from "@repo/icons";
-import { cn } from "@repo/utils";
+import { ChevronLeft, ChevronRight } from "icons";
 import React from "react";
 import { DayPicker } from "react-day-picker";
+import { cn } from "utils";
+
+/* eslint-disable @typescript-eslint/naming-convention */
+
+/* eslint-disable @typescript-eslint/naming-convention */
 
 /* eslint-disable @typescript-eslint/naming-convention */
 

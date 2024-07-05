@@ -1,5 +1,5 @@
-import { cn } from "@repo/utils";
 import React from "react";
+import { cn } from "utils";
 
 export type InputNumberProps = React.InputHTMLAttributes<HTMLInputElement> & {
   decimalPlaces?: number;

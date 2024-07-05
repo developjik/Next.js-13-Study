@@ -1,8 +1,8 @@
 import { ButtonStyle } from "./style";
 import { ButtonProps } from "./type";
 import { Slot } from "@radix-ui/react-slot";
-import { cn } from "@repo/utils";
 import React from "react";
+import { cn } from "utils";
 
 const Button: React.JSX = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {

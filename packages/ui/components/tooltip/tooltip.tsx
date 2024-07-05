@@ -1,16 +1,14 @@
 "use client";
 
-import React from "react";
-import * as TooltipPrimitive from "@radix-ui/react-tooltip";
-
 import {
   TooltipTriggerProps,
   TooltipContentProps,
   TooltipArrowProps,
   TooltipWrapperProps,
 } from "./type";
-
-import { cn } from "@repo/utils";
+import * as TooltipPrimitive from "@radix-ui/react-tooltip";
+import React from "react";
+import { cn } from "utils";
 
 const TooltipWrapper = ({
   delayDuration = 0,

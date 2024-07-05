@@ -1,6 +1,6 @@
-import React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { cn } from "@repo/utils";
+import React from "react";
+import { cn } from "utils";
 
 export type AccordionHeaderProps = React.ComponentPropsWithoutRef<
   typeof AccordionPrimitive.Header

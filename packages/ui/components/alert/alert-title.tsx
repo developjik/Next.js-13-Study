@@ -1,5 +1,5 @@
-import { cn } from "@repo/utils";
 import * as React from "react";
+import { cn } from "utils";
 
 const AlertTitle = React.forwardRef<
   HTMLParagraphElement,
