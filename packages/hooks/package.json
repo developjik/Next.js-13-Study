@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "configs": "workspace:*",
+    "eslint-config": "workspace:*"
+  },
+  "dependencies": {
+    "react-use": "^17.5.0"
+  }
+}
